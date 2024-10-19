@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 100%;
+    background: rgb(132,181,255);
+    background: linear-gradient(90deg, rgba(132,181,255,1) 61%, #0066ff 100%);
+    width: 100%;
+    height: 5000px;
+    
+}
+
+
+.cab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px   ;
+    position: fixed;
+    gap: 500px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    height: 110px;
+    background-color: #0066ff;
+
+}
+
+.edimg{
+    padding-left: 300px;
+}
+
+.menu{
+    display: flex;
+    gap: 100px;
+}
+
+.menu-item{
+    color: white;
+    font-size: 25px;
+}
+
+.menu-item:hover{
+    color: white;
+    text-decoration: underline ;
+    
+}
+
+.imgu{
+    width: 90px;
+    border-radius: 50%;
+}
+
+.conteudo{
+    border-top: 1px solid white;
+    margin-bottom: 45px;
+    padding: 30px;
+    padding-top: 150px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal-escrito{
+display: flex;
+flex-direction: column;
+gap: 32px;
+}
+
+.titulo{
+    font-size: 100px;
+    font-family: "Righteous", sans-serif;
+    color: #021469;
+    font-weight: 400;
+}
+
+.subtitulo{
+    width: 500px;
+    font-size: 30px;
+    color: #2c3877;
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+}
+
+.img{
+    width: 500px;
+    border: #021469 solid 5px;
+    border-radius: 15%;
+    transition: all 0.5s;
+}
+
+.img:hover{
+    border-radius: 0%;
+    transition: all 0.5s;
+}
+
+.rodape{
+    border-top: 1px solid white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white
+
+  
+}
+
+.imgi{
+    width: 50px;
+}
+
+.imgnav{
+    width: 30px;
+}
+
+
+ .is{
+    font-family: "Sarala", sans-serif;
+    font-size: 15px;
+    color: white;
+ }
+
+ .u{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+ }
+
+.is:hover{
+    color: white;
+    background-color: #021469;
+}
+
+.cont{
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;  
+        border-bottom: 1px solid white;
+
+}
+
+.seg-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+.con{
+    font-family: "Righteous", sans-serif;
+    color: #021469;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.con2{
+    padding-top: 20px;
+    font-family: "Sarala", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.email{
+    width: 110px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+}
+
+.esc{
+    color: #021469;
+}
+
+.alu{
+    padding: 10px;
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+.alunos-titulo{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    color: #021469;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.alunos-subtitulo{
+    font-family: "Sarala", sans-serif;
+    color: #021469;
+    font-size: 20px;
+    display: flex;
+    justify-content: center ;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nomes-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.c1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.c2{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    align-items: center;
+}
+.c3{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    align-items: center;
+}
+
+.nome{
+    text-decoration: none;
+    color: white;
+    font-family: "Sarala", sans-serif;
+    font-size: 25px;
+}
+
+.nome:hover{
+color: #021469;
+text-decoration: underline ;
+
+}
